@@ -1,0 +1,218 @@
+
+:root{
+    --clr-text: #555;
+    --clr-primary:  rgb(48, 19, 19);
+    --clr-accent: rgb(84, 75, 75);
+    
+    --ff-title: "BFNarrow", sans-serif;
+    --ff-serif: "Crisom Text", serif;
+    --ff-logo: ;
+    }
+
+body {
+    margin: 0;
+    height: 500vh;
+}
+
+.line-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+
+}
+.hero {
+    /* background-image: url(cropped-TGJ-Logo-Pink-1-4.png); */
+    display: block;
+    text-align: center;
+    height: 25vh;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    color: rgb(48, 19, 19);
+    margin-bottom: none;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+}
+
+h1 {
+    margin-bottom: 1px;
+}
+ul {
+    display: block;
+        list-style: none;
+        margin: 0;
+        padding: 1em;
+        justify-content: space-around;
+}
+.p{
+    font-size: 2rem;
+}
+
+.f {
+    display: center;
+}
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+section:nth-of-type(2) {
+    background: rgb(232, 227, 214);
+}
+
+
+
+.two {
+    font-size: 5rem;
+    position: relative;
+    overflow: hidden;
+}
+footer {
+    background: #333;
+    padding: 3em 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 3em;
+}
+
+footer a {
+    color: inherit;
+}
+.footer-nav {
+    list-style: none;
+}
+
+.footer-nav a {
+    padding: .75em;
+    text-decoration: none;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+    text-decoration: underline;
+}
+
+/* buttons */
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    padding: .75em 2.5em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: 0.5em;
+    border-radius: .5em;
+}
+.btn + .btn {
+    margin-left: 0.5em;
+}
+.btn-primary {
+    background: var(--clr-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+form button:hover,
+fform button:focus {
+    background: rgb(213, 85, 133);
+    color: black;
+}
+.btn-accent {
+    background: var(--clr-accent);
+}
+
+.btn-accent:hover,
+.btn-accent:focus {
+    background:rgb(247, 81, 230);
+}
+
+@media only screen and (min-width: 750px){
+    section {
+        padding: 0em 1em;
+    }
+.btn-group {
+margin-top: 2em;
+margin-bottom: 5em;
+flex-direction: row;
+}
+.btn + btn {
+    margin-left: 0.5em;
+}}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(232, 227, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: rgb(172, 172, 172);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: rgb(57, 57, 57);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: rgb(236, 236, 236);
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+form button{
+    padding: 15px;
+    background: lavenderblush;
+    color: rgb(16, 19, 21);
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+
+}

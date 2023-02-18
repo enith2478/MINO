@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- <section class="hero">
+        <h1>MINO MEETINGS</h1>
+       </section> -->
+    
+   
+    <section>
+    <h1>Mars</h1>
+    <video class="video-bg" autoplay muted>
+        <source src="MINOpresentation.mp4" type="video/mp4">
+    
+    </video>
+   </section>
+
+   <section>
+    <h1>Spring Road Map</h1>
+    <h3 class="p"><p>Here comes a brief description of the topics that we have planned for the uppcomming events</p></h3>
+   </section>
+
+   <section>
+    <h1>Mars 9</h1>
+    <ul class="p">
+        <li>Idea genereting</li>
+        <li>Best conditions to start a project</li>
+        <li>Genre</li>
+        <li>Target group</li>
+        <li>Competition and market research</li>
+        <li>Level design and dificulty curve</li>
+    </ul>
+   </section>
+
+   <section>
+    <h1>April 13</h1>
+    <ul class="p">
+        <li>Points</li>
+        <li>Story</li>
+    </ul>
+   </section>
+
+   <section>
+    <h1>May 11</h1>
+    <ul class="p">
+        <li>Sound</li>
+        <li>Atsmosphere</li>
+        <li>Music</li>
+        <li>Project lead</li>
+    </ul>
+   </section>
+
+   <section>
+    <h1>June 8</h1>
+    <ul class="p">
+        <li>Programmers</li>
+        <li>Visualizing</li>
+        <li>Game design</li>
+        <li>User interface</li>
+    </ul>
+   </section>
+   <div class="container">
+    
+    <form action="https://formspree.io/f/xdovgaez" method="POST">
+      <h3>Get in touch with us</h3>
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="Email" placeholder="Email" required>
+        <textarea name="Message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <div class="btn-group">
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=100089725963147" class="btn btn-primary">Facebook</a>
+        <a target="_blank" rel="noopener" href="https://discord.gg/yprH7Cma" class="btn btn-primary">Discord</a>
+        <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScaPteM0bv7ZGD2OJrxHs56tQog5s02zfIXeDwGQ6fbDSovhg/viewform" class="btn btn-primary">Register</a>
+    </div>
+  </div>  
+ 
+    <!-- <div class="line-container">
+        <svg  viewBox="0 0 670 4908" fill="none">
+            <path d="M326 1L353 475H138L353 788L278 561.5L552.5 475L353 916.5V1860.5H93.5V2239.5L263.5 2233.5L242.5 1902.5H457V1860.5H552.5V2239.5L326 2233.5C293.167 2294.17 247.2 3319.7 326 3362.5C424.5 3416 719.5 3085 660 3499.5C600.5 3914 424 4015.5 209.5 3911C-5.00002 3806.5 439.5 3812.5 481 3744C522.5 3675.5 654.5 3434 517 3434C379.5 3434 221 3342 111 3455C0.999977 3568 -2.00002 3729 3.99998 3806.5C9.99998 3884 114.5 4042 263.5 4069C382.7 4090.6 406.5 4636.67 403.5 4907" stroke="pink" stroke-width="10"/>
+            </svg>
+    </div>
+
+        <script>
+           let paths = document.querySelectorAll('path');
+
+fillSvgPaths()
+
+document.addEventListener('scroll', fillSvgPaths)
+
+function fillSvgPaths() {
+
+    let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+    for (var i = 0; i < paths.length; i++) {
+        let path = paths[i];
+
+        let pathLength = path.getTotalLength();
+
+        path.style.strokeDasharray = pathLength;
+        path.style.strokeDashoffset = pathLength;
+
+        let drawLength = pathLength * scrollPercentage;
+
+        path.style.strokeDashoffset = pathLength - drawLength;
+    }
+}
+        </script> -->
+        
+
+</body>
+</html>
