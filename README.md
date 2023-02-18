@@ -1,3 +1,3 @@
-# enith2478.github.io
+#MINO
 Mino First draft
 Page creted to showcase and build comunity
